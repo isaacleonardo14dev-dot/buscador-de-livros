@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador de Livros | Open Library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>📚 Explorador de Livros</h1>
+    <p>Pesquise títulos, autores ou ISBN no acervo da Open Library</p>
+  </header>
+
+  <main class="container">
+    <section class="busca-box">
+      <div class="input-group">
+        <input 
+          type="text" 
+          id="campo-busca" 
+          placeholder="Digite o título, autor ou ISBN (ex: Dom Casmurro, Machado de Assis)..."
+        />
+        <button id="btn-buscar">Buscar</button>
+      </div>
+    </section>
+
+    <div id="status-msg" class="status-msg"></div>
+    <section id="resultado" class="cards-grid"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
