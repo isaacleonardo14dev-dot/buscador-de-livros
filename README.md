@@ -5,7 +5,7 @@ Isaac Leonardo — Matrícula 22607082
 
 ## Descrição
 Uma aplicação web interativa para pesquisar livros em tempo real e consultar informações sobre obras e autores. É útil para leitores e estudantes que procuram detalhes de livros de forma rápida e intuitiva.
-
+s
 ## API utilizada
 - **Open Library API:** https://openlibrary.org/developers/api
 - **Endpoints consumidos:**

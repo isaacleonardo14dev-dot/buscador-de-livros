@@ -14,6 +14,7 @@
   </header>
 
   <main class="container">
+    <!-- Seção de Busca -->
     <section class="busca-box">
       <div class="input-group">
         <input 
@@ -25,10 +26,23 @@
       </div>
     </section>
 
+    <!-- Status e Resultados da API -->
     <div id="status-msg" class="status-msg"></div>
     <section id="resultado" class="cards-grid"></section>
+
+    <hr style="margin: 30px 0; border: 0; border-top: 1px solid #cbd5e1;">
+
+    <!-- Seção de Favoritos Persistidos no Supabase -->
+    <section class="favoritos-box">
+      <h2 style="margin-bottom: 16px; color: #1e293b;">⭐ Meus Favoritos Salvos</h2>
+      <div id="favoritos" class="cards-grid"></div>
+    </section>
   </main>
 
+  <!-- 1. SDK do Supabase CDN (Obrigatório vir antes do script.js) -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  
+  <!-- 2. Seu arquivo de script principal -->
   <script src="script.js"></script>
 </body>
 </html>
